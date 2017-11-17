@@ -94,7 +94,7 @@ class ChangingColors(Color):
 		self.nodeNum = nodeNum
 		self.nodeColors = self.RandomColor(nodeNum)
 		# Log("Starting colors are: ", 3)
-		Log(str(self.nodeColors), 3)
+		# Log(str(self.nodeColors), 3)
 		self.nodColChgSpd = []
 		for i in range(nodeNum):
 			a = []
