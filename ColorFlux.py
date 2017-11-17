@@ -73,7 +73,8 @@ class ColSquare(Color):
 			for i in range(4):
 				self.vertLst.colors[i*3:(i*3+3)] = colVal[i]
 		else:
-			Log("Static color", 2)
+			# Log("Static color", 2)
+			pass
 	# The same as PaintWhole just so much more fun.
 	def PaintFlux(self):
 		# Log("Let the FUN begin!!", 3)
@@ -93,7 +94,7 @@ class ChangingColors(Color):
 		self.nodeNum = nodeNum
 		self.nodeColors = self.RandomColor(nodeNum)
 		# Log("Starting colors are: ", 3)
-		Log(str(self.nodeColors), 3)
+		# Log(str(self.nodeColors), 3)
 		self.nodColChgSpd = []
 		for i in range(nodeNum):
 			a = []
@@ -111,9 +112,9 @@ class ChangingColors(Color):
 		# change color for each node according to speed
 		# Log("Changing colors...", 3)
 		# Log("Old colors:", 4)
-		Log(str(self.nodeColors),4)
+		#Log(str(self.nodeColors),4)
 		# Log("Change speeds:", 4)
-		Log(str(self.nodColChgSpd),4)
+		#Log(str(self.nodColChgSpd),4)
 		for i in range (self.nodeNum):
 			for j in range(3):
 				self.nodeColors[i][j] += self.nodColChgSpd[i][j]
