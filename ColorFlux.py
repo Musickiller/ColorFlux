@@ -1,7 +1,7 @@
 import pyglet
 from pyglet import graphics as gfx
 
-from numpy.random import random as rnd
+from random import random as rnd
 
 # from other.log import RiseLogLevel, LogIt as Log
 
