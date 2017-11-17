@@ -1,0 +1,13 @@
+I: Easy:
+	1. init:
+		speed = random
+	2. frame:
+		color = change acc to speed
+		if color > 255:
+			color = 255
+			speed = -speed
+		
+II: Med
+1. init:
+	speed = 0
+2. get random accel
