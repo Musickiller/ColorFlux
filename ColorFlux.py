@@ -73,7 +73,8 @@ class ColSquare(Color):
 			for i in range(4):
 				self.vertLst.colors[i*3:(i*3+3)] = colVal[i]
 		else:
-			Log("Static color", 2)
+			# Log("Static color", 2)
+			pass
 	# The same as PaintWhole just so much more fun.
 	def PaintFlux(self):
 		# Log("Let the FUN begin!!", 3)
