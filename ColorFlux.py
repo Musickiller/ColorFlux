@@ -112,9 +112,9 @@ class ChangingColors(Color):
 		# change color for each node according to speed
 		# Log("Changing colors...", 3)
 		# Log("Old colors:", 4)
-		Log(str(self.nodeColors),4)
+		#Log(str(self.nodeColors),4)
 		# Log("Change speeds:", 4)
-		Log(str(self.nodColChgSpd),4)
+		#Log(str(self.nodColChgSpd),4)
 		for i in range (self.nodeNum):
 			for j in range(3):
 				self.nodeColors[i][j] += self.nodColChgSpd[i][j]
