@@ -134,13 +134,13 @@ class ChangingColors(Color):
 # RiseLogLevel(1)
 
 # Creates the window
-window = pyglet.window.Window()
+window = pyglet.window.Window(fullscreen=True)
 FPS = 60
 figures = [False]
 
 # Ugh.. almost unused
-canvSizeX = 640
-canvSizeY = 480
+canvSizeX = window.width
+canvSizeY = window.height
 
 # Just to make it easier to reshape a rectangle
 A = [0, 0]
